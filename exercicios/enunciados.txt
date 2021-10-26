@@ -1,0 +1,13 @@
+Exercícios
+
+EXERCÍCIO 01
+
+1) Crie uma classe Pessoa contendo as seguintes propriedades/atributos
+
+-nome da pessoa
+-email da pessoa
+-idade da pessoa
+
+2) Em um novo arquivo (exercicio1.php), crie 2 objetos a partir da classe Pessoa.
+
+3) Use o var_dump para avaliar os objetos criados.
