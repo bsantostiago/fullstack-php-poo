@@ -7,22 +7,34 @@
 <title>PHP Orientado a Objetos</title>
 </head>
 <body>
-    <h1>PHP POO - Exemplo 2</h1>
+    <h1>PHP POO - Exemplo 4</h1>
     <hr>
     <h2>Assuntos estudados:</h2>
     <ul>
-        
+        <li>Modificadores de visibilidade:
+            public, private e protected
+        </li>
+        <li>Encapsulamento usando getters e setters</li>
     </ul>
 
 <?php
 require "src/Livro.php";
-$livroA = new Livro("Senhor dos Anéis", "Tolkien", 1954);
-$livroB = new Livro("Ghost Rider", "Neil Peart", 2003);
-?>
+$livroA = new Livro;
+$livroB = new Livro;
 
+// Atribuição via setter
+$livroA->setTitulo("Senhor dos Anéis");
+$livroA->setAutor("Tolkien");
+$livroA->setAno(1954);
+?>
 <pre><?=var_dump($livroA, $livroB)?></pre>
 
-
-
+<h3></h3>
+<ul>
+    <!-- Leitura via getter -->
+    <li>Título: <b> <?=$livroA->getTitulo()?> </b> </li>
+    <li>Autor: <b> <?=$livroA->getAutor()?> </b> </li>
+    <li>Ano: <b> <?=$livroA->getAno()?> </b> </li>
+</ul>
 </body>
 </html>

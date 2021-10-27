@@ -11,3 +11,12 @@ EXERCÍCIO 01
 2) Em um novo arquivo (exercicio1.php), crie 2 objetos a partir da classe Pessoa.
 
 3) Use o var_dump para avaliar os objetos criados.
+
+
+EXERCÍCIO 02
+
+-Modifique a classe Pessoa implementando nela propriedades privadas e métodos getters e setters.
+
+-Crie um objeto no arquivo exercicio02.php e use os getters e setters para manipular os dados. Mostre os dados no HTML.
+
+-DESAFIO: implemente na classe Pessoa um método privado que receba o e-mail e o sanitize.
